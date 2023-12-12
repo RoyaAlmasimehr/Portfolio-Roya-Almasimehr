@@ -47,13 +47,15 @@ nav li.active a {
   color: var(--branding-color);
 }
 #img {
-    height: 500px;
- width: 400px;
+    height: 450px;
+ width: 300px;
   border-radius: 10px;
-  margin-right: 40px;
+margin-left: 60px;
+margin-top: 80px;
+ 
 }
 .content-container {
-  padding: 60px 40px;
+  padding:90px 90px;
 }
 
 .content h1 {
@@ -76,8 +78,10 @@ nav li.active a {
 }
 
 .content p {
-  font-size: 14px;
+  font-size: 24px;
+  line-height: 1.5;
   text-align: left;
+  font-family: var(--heading-font-family);
 }
 
 .content {
@@ -102,6 +106,7 @@ section a {
   color: var(--branding-color);
 }
 footer a {
+    margin-bottom: 30px;
   padding: 20px;
   font-size: 30px;
   color: var(--branding-color);

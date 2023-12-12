@@ -90,6 +90,9 @@ nav li.active a {
   color: var(--branding-color);
   background-color: white;
 }
+footer{
+    padding: 120px;
+}
 footer a {
   padding: 20px;
   font-size: 30px;
@@ -106,7 +109,7 @@ footer a:hover {
 .content-container {
   padding: 60px 20px;
 }
-.content a {
+.box a {
   color: var(--branding-color);
   font-family: var(--heading-font-family);
   text-decoration: none;
