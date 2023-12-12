@@ -120,6 +120,9 @@ footer a:hover {
 }
 .cer p{
     padding: 15px;
+    font-family: var(--heading-font-family);
+    font-size: 20px;
+
 }
 
 h3{
