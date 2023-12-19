@@ -51,7 +51,7 @@ nav li {
 }
 nav a {
   text-decoration: none;
-  color:black;
+  color:white;
   transition: all 300ms ease-in-out;
   font-size: 20px;
 }
@@ -93,13 +93,30 @@ footer a:hover {
 }
 .toolbox-icons {
     width: 100px;
+     transition: all 400ms ease-in-out;
       
 }
 .toolbox-icons:hover{
   transform: scale(1.5);
 }
+ .toolbox img{
+    margin-bottom: 15px;
+  }
+     .toolbox  p{
+      margin-bottom: 20px;
+     }
 
-
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap:20px;
+    text-align: center;
+    margin: 80px 60px;
+}
+.cer-img{
+   width: 400px;
+         transition:all 400ms ease-in-out;
+}
       
 
 .cer{
@@ -107,18 +124,16 @@ footer a:hover {
     padding: 10px;
 }
 
-.cer-img{
-    width: 400px;
-}
-.cer{
+
+.grid1{
     margin-bottom: 20px;
 }
 
 .cer-img:hover{
-      transform: scale(2) ;
+      transform: scale(1.25) ;
   
 }
-.cer p{
+.grid1 p{
     padding: 15px;
     font-family: var(--heading-font-family);
     font-size: 20px;
@@ -142,4 +157,38 @@ h3{
         margin:20px;
         padding: 20px;
     }
+  .toolbox{
+    padding:30px;
+  }
+   .grid{
+     display: grid;
+    grid-template-columns: 1fr;
+    grid-gap:70px;
+    text-align: center;
+padding-bottom: 40px;
+
+  }
+ 
+ .grid1 p{
+    font-size:25px;
+  
+  }
+ 
+   .toolbox  p{
+    font-size: 15px;
+    margin-bottom: 10px;
+   }
+  .box2{
+    margin: 0 20px ;
+    font-size: 15px;
+  }
+  nav a {font-size: 15px;
+
+}
+nav ul {
+
+  margin: 0 auto;
+}
+
+
 }
