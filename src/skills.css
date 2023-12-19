@@ -89,21 +89,21 @@ footer a:hover {
 }
 .toolbox{
     text-align: center;
+    padding: 30px;
   
 }
 .toolbox-icons {
-    width: 100px;
+    width: 70px;
      transition: all 400ms ease-in-out;
       
 }
 .toolbox-icons:hover{
   transform: scale(1.5);
 }
- .toolbox img{
-    margin-bottom: 15px;
-  }
-     .toolbox  p{
-      margin-bottom: 20px;
+ 
+     .toolbox p{
+  margin:10px 20px;
+  
      }
 
 .grid{
@@ -152,13 +152,13 @@ h3{
 }
 
 
-@media(max-width:900px){
+@media(max-width:850px){
     .content{
         margin:20px;
         padding: 20px;
     }
   .toolbox{
-    padding:30px;
+    padding:25px;
   }
    .grid{
      display: grid;
@@ -174,9 +174,11 @@ padding-bottom: 40px;
   
   }
  
-   .toolbox  p{
-    font-size: 15px;
-    margin-bottom: 10px;
+   .toolbox p{
+    font-size: 10px;
+
+
+    text-align:center;
    }
   .box2{
     margin: 0 20px ;
